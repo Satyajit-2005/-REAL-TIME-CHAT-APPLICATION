@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #0F0026;
+    }
+    /* Chat Container */
+    .chat-container {
+    max-width: 1200px;
+    max-height: fit-content;
+    min-height: 670px; ;
+    margin: 40px auto;
+    background-color: #423a4f;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    position: relative;
+    }
+    /* Chat Header */
+    .chat-header {
+    background: #6109e6;
+    background: linear-gradient(108deg, #6109e6 5%, #94bbe9 92%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    }
+    .chat-header h2 {
+    margin: 0;
+    }
+    /* Chat Messages */
+    .chat-messages {
+    padding: 20px;
+    }
+    .chat-messages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    /* Chat Input */
+    .chat-input {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    }
+    .chat-bubble {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+    form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: inline-block;
+    }
+#send-button {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #6109E6;
+background: radial-gradient(circle, rgba(97, 9, 230, 1) 5%, rgba(148, 187, 233, 1) 93%);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#send-button:hover {
+    background: #6109e6;
+}
+#clear-button {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background: #6109E6;
+background: radial-gradient(circle, rgba(97, 9, 230, 1) 5%, rgba(148, 187, 233, 1) 93%);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#clear-button:hover {
+    background: #6109e6;
+}
